@@ -166,7 +166,7 @@ a {
   display: flex;
 }
 .jordan_kyz img{
-  margin-left:40px;
+  margin-left:55px;
   border-radius: 15px;
 }
 .jordan_cros img{
@@ -233,9 +233,9 @@ a {
   }
   .jordan_cros{
     margin-top: 1px;
-    width:98%;
+    width:95%;
   }
   .jordan_sum{
-    width:97%;
+    width: 95%;
   }
 }
