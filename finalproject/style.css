@@ -139,7 +139,6 @@ a {
   font-weight: 800;
   border-radius: 25px;
 }
-
 .button2{
   background-color: #000000; 
   border: none;
@@ -153,7 +152,6 @@ a {
   border-radius: 25px;
   margin-left: 7px
 }
-
 @media screen and (max-width: 430px) {
   body {
     font: none;
