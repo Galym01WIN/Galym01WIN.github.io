@@ -5,7 +5,7 @@ body {
 a {
   color: #000000;
   text-decoration: none;
-  
+
 }
 
 .header {
@@ -122,9 +122,12 @@ a {
   text-align: center;
   font-size: 17px;
 }
+.button{
+  display: flex;
+  margin: 0 38%;
+}
 
-
-.button {
+.button1{
   background-color: #000000; 
   border: none;
   color: white;
@@ -135,7 +138,20 @@ a {
   font-size: 15px;
   font-weight: 800;
   border-radius: 25px;
-  margin: 0 35%;
+}
+
+.button2{
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 800;
+  border-radius: 25px;
+  margin-left: 7px
 }
 
 @media screen and (max-width: 430px) {
