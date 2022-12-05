@@ -160,6 +160,7 @@ a {
   font-size: 180%;
   font-weight:900;
 }
+
 @media screen and (max-width: 430px) {
   body {
     font: none;
