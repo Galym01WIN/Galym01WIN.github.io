@@ -240,9 +240,7 @@ a {
   margin-left: 55%;
   top: 87%;
   box-shadow: rgb(11, 139, 198) 4px 4px ;
-
 }
-
 @media screen and (max-width: 430px) {
   body {
     font: none;
@@ -262,7 +260,6 @@ a {
   .header2 {
     display: none;
   }
-
   .header3 {
     width: 25%;
     height: 25%;
@@ -270,7 +267,6 @@ a {
   .header4 {
     font-size: 12px;
   }
-
   .family_photo img {
     margin: 15px 10px;
   }
@@ -278,7 +274,6 @@ a {
     font-size: 20px;
     text-align: center;
   }
-
   .button{
    margin: 3% 19%;
   }
@@ -286,7 +281,6 @@ a {
     font-size: 80%;
     padding: 0 15px;
   }
-
   .button2{
     font-size: 80%;
     padding:0 15px;
