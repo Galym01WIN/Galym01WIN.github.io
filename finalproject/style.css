@@ -157,11 +157,28 @@ a {
 }
 
 .section2{
-  margin: 5%;
+  margin-top: 5%;
+  margin-left: 40px;
   font-size: 180%;
   font-weight:900;
 }
-
+.jordandar{
+  display: flex;
+}
+.jordan_kyz img{
+  margin-left:40px;
+  border-radius: 15px;
+}
+.jordan_cros img{
+  border-radius: 15px;
+}
+.jordan_sum img{
+  margin-top: 7%;
+  border-radius: 15px;
+}
+.jordans{
+  margin-left: 7%;
+}
 
 @media screen and (max-width: 430px) {
   body {
@@ -211,4 +228,16 @@ a {
     font-size: 80%;
     padding:0 15px;
   }
+
+  .jordan_kyz img{
+    margin-left: 15px;
+  }
+  .jordan_cros{
+    margin-top: 1px;
+    width:98%;
+  }
+  .jordan_sum{
+    width:97%;
+  }
+
 }
