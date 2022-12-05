@@ -154,6 +154,12 @@ a {
   margin-left: 7px;
   cursor: pointer;
 }
+
+.section2{
+  margin: 5%;
+  font-size: 180%;
+  font-weight:900;
+}
 @media screen and (max-width: 430px) {
   body {
     font: none;
