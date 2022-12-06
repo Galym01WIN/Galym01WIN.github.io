@@ -1,11 +1,10 @@
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 a {
   color: #000000;
   text-decoration: none;
-
 }
 
 .header {
@@ -28,7 +27,6 @@ a {
 .header_item {
   font-size: 100%;
   margin-left: 7px;
-
 }
 
 .header_item:hover {
@@ -119,17 +117,17 @@ a {
   font-size: 50px;
   font-weight: 700;
 }
-.west{
+.west {
   text-align: center;
   font-size: 17px;
 }
-.button{
+.button {
   display: flex;
   margin: 3% 39%;
 }
 
-.button1{
-  background-color: #000000; 
+.button1 {
+  background-color: #000000;
   border: none;
   color: white;
   padding: 0 10%;
@@ -140,10 +138,10 @@ a {
   font-weight: 800;
   border-radius: 25px;
   cursor: pointer;
-  box-shadow: rgb(11, 139, 198) 4px 4px ;
+  box-shadow: rgb(11, 139, 198) 4px 4px;
 }
-.button2{
-  background-color: #000000; 
+.button2 {
+  background-color: #000000;
   border: none;
   color: white;
   padding: 0 25px;
@@ -155,39 +153,39 @@ a {
   border-radius: 25px;
   margin-left: 7px;
   cursor: pointer;
-  box-shadow: rgb(11, 139, 198) 4px 4px ;
+  box-shadow: rgb(11, 139, 198) 4px 4px;
 }
 
-.section2{
+.section2 {
   margin-top: 5%;
-  margin-left: 40px;
+  margin-left: 4%;
   font-size: 180%;
-  font-weight:900;
+  font-weight: 900;
 }
-.jordandar{
+.jordandar {
   display: flex;
 }
-.jordan_kyz img{
-  margin-left:55px;
+.jordan_kyz img {
+  margin-left: 55px;
   border-radius: 15px;
 }
-.jordan_cros img{
+.jordan_cros img {
   border-radius: 15px;
 }
-.jordan_sum img{
+.jordan_sum img {
   margin-top: 7%;
   border-radius: 15px;
 }
-.jordans{
+.jordans {
   margin-left: 7%;
 }
-.page2{
+.page2 {
   position: relative;
 }
 
-.shop{
+.shop {
   position: absolute;
-  background-color: #000000; 
+  background-color: #000000;
   border: none;
   color: white;
   padding: 0 25px;
@@ -199,12 +197,12 @@ a {
   border-radius: 25px;
   margin-left: 7px;
   cursor: pointer;
-  box-shadow: rgb(11, 139, 198) 4px 4px ;
-  margin-left:55%;
+  box-shadow: rgb(11, 139, 198) 4px 4px;
+  margin-left: 55%;
   top: 40%;
 }
-.shop1{
-  background-color: #000000; 
+.shop1 {
+  background-color: #000000;
   border: none;
   color: white;
   padding: 0 25px;
@@ -219,10 +217,10 @@ a {
   position: absolute;
   margin-left: 5%;
   top: 87%;
-  box-shadow: rgb(11, 139, 198) 4px 4px ;
+  box-shadow: rgb(11, 139, 198) 4px 4px;
 }
-.shop2{
-  background-color: #000000; 
+.shop2 {
+  background-color: #000000;
   border: none;
   color: white;
   padding: 0 25px;
@@ -234,11 +232,60 @@ a {
   border-radius: 25px;
   margin-left: 7px;
   cursor: pointer;
-  position:absolute;
+  position: absolute;
   margin-left: 55%;
   top: 87%;
-  box-shadow: rgb(11, 139, 198) 4px 4px ;
+  box-shadow: rgb(11, 139, 198) 4px 4px;
 }
+.section3{
+  margin-top: 5%;
+  margin-left: 4%;
+  font-size: 180%;
+  font-weight: 900;
+}
+.jordan_bala{
+  display: flex;
+  margin: 0 2%;
+}
+.jordan_bala img{
+  border-radius: 15px;
+  margin-left: 18px; 
+}
+
+.jordan_bala1{
+  font-size: 25px;
+  font-weight: 900;
+}
+.jordan_bala12{
+ margin: 4%;  
+}
+.shop3{
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 0 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 70%;
+  font-weight: 800;
+  border-radius: 55px;
+  margin-left: 7px;
+  cursor: pointer;
+  margin-left: 5%;
+  box-shadow: rgb(11, 139, 198) 4px 4px;
+}
+
+.jordan_bala2{
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.jordan_bala3{
+  font-size: 25px;
+  font-weight: 900;
+}
+
 @media screen and (max-width: 430px) {
   body {
     font: none;
@@ -268,43 +315,63 @@ a {
   .family_photo img {
     margin: 15px 10px;
   }
-  .westwood{
+  .westwood {
     font-size: 20px;
     text-align: center;
   }
-  .button{
-   margin: 3% 19%;
+  .button {
+    margin: 3% 19%;
   }
-  .button1{
+  .button1 {
     font-size: 80%;
     padding: 0 15px;
   }
-  .button2{
+  .button2 {
     font-size: 80%;
-    padding:0 15px;
+    padding: 0 15px;
   }
-  .jordan_kyz img{
+  .jordan_kyz img {
     margin-left: 15px;
   }
-  .jordan_cros{
+  .jordan_cros {
     margin-top: 1px;
-    width:95%;
-  }
-  .jordan_sum{
     width: 95%;
   }
-  .shop{
+  .jordan_sum {
+    width: 95%;
+  }
+  .shop {
     font-size: 10%;
     padding: 0 10px;
     top: 46%;
   }
-  .shop1{
+  .shop1 {
     font-size: 10%;
     padding: 0 10px;
     margin-left: 25px;
   }
-  .shop2{
+  .shop2 {
     font-size: 10%;
     padding: 0 10px;
   }
+  .jordan_bala{
+    display: block;
+  }
+.jordan_bala1 img{
+  margin-left: 7px;
+  width: 90%;
+  height: 70%;
+}
+.jordan_bala2 img{
+  margin-top: 10%;
+  margin-left: 7px;
+  width: 90%;
+  height: 70%;
+}
+.jordan_bala3 img{
+  margin-top: 10%;
+  margin-left: 7px;
+  width: 90%;
+  height: 70%;
+}
 }
