@@ -304,10 +304,18 @@ a {
 ::-webkit-scrollbar{
   display: none;
 }
-.crostar > div > img {
-  margin-right: 1%;
+.crostar > div > .qazaq > img{
+  margin-right: 10%;
   border-radius: 15px;
 }
+.crostar > div > .qazaq{
+  margin-right: 15px;
+}
+.router{
+  margin-left: 5%;
+}
+
+
 @media screen and (max-width: 430px) {
   body {
     font: none;
