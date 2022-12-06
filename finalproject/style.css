@@ -285,6 +285,29 @@ a {
   font-size: 25px;
   font-weight: 900;
 }
+.popular{
+  margin-top: 5%;
+  margin-left: 4%;
+  font-size: 180%;
+  font-weight: 900;
+}
+.crostar {
+  display: flex;
+  overflow: hidden;
+}
+.crostar > div {
+  display: flex;
+  width: 280%;
+  overflow-x: auto !important;
+  margin: 0 4%;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.crostar > div > img {
+  margin-right: 1%;
+  border-radius: 15px;
+}
 @media screen and (max-width: 430px) {
   body {
     font: none;
@@ -376,5 +399,9 @@ a {
 .section3{
   text-align: center;
   margin-right: 30px;
+}
+.crostar > div > img {
+  width: 70%;
+  height: 70%;
 }
 }
