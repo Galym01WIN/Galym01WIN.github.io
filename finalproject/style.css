@@ -237,29 +237,29 @@ a {
   top: 87%;
   box-shadow: rgb(11, 139, 198) 4px 4px;
 }
-.section3{
+.section3 {
   margin-top: 5%;
   margin-left: 4%;
   font-size: 180%;
   font-weight: 900;
 }
-.jordan_bala{
+.jordan_bala {
   display: flex;
   margin: 0 2%;
 }
-.jordan_bala img{
+.jordan_bala img {
   border-radius: 15px;
-  margin-left: 18px; 
+  margin-left: 18px;
 }
 
-.jordan_bala1{
+.jordan_bala1 {
   font-size: 25px;
   font-weight: 900;
 }
-.jordan_bala12{
- margin: 4%;  
+.jordan_bala12 {
+  margin: 4%;
 }
-.shop3{
+.shop3 {
   background-color: #000000;
   border: none;
   color: white;
@@ -276,16 +276,16 @@ a {
   box-shadow: rgb(11, 139, 198) 4px 4px;
 }
 
-.jordan_bala2{
+.jordan_bala2 {
   font-size: 25px;
   font-weight: 900;
 }
 
-.jordan_bala3{
+.jordan_bala3 {
   font-size: 25px;
   font-weight: 900;
 }
-.popular{
+.popular {
   margin-top: 5%;
   margin-left: 4%;
   font-size: 180%;
@@ -298,24 +298,71 @@ a {
 .crostar > div {
   display: flex;
   width: 280%;
-  overflow-x: auto !important;
+  overflow-x: auto;
   margin: 0 4%;
 }
-::-webkit-scrollbar{
-  display: none;
+::-webkit-scrollbar {
+   display: none;
 }
-.crostar > div > .qazaq > img{
+.crostar > div > .qazaq > img {
   margin-right: 10%;
   border-radius: 15px;
 }
-.crostar > div > .qazaq{
+.crostar > div > .qazaq {
   margin-right: 15px;
 }
-.router{
+.router {
   margin-left: 5%;
 }
-
-
+.section4 {
+  margin-top: 5%;
+  margin-left: 4%;
+  font-size: 180%;
+  font-weight: 900;
+}
+.jordanqaz {
+  margin: 0 4%;
+  display: flex;
+}
+.jor1 img {
+  border-radius: 15px;
+}
+.jor2 img {
+  margin: 0 15px;
+  border-radius: 15px;
+}
+.jor3 img {
+  border-radius: 15px;
+}
+.sabina{
+  background-color: #000000;
+}
+.zhasu{
+  font-family: none;
+  font-size: 18px;
+  display: flex;
+  margin: 0 15%;
+  margin-top: 100px;
+}
+.zhasu1{
+  line-height: 2;
+  color: rgb(255, 255, 255);
+}
+.zhasu2{
+  margin-left: 13%;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+}
+.zhasu3{
+  margin-left: 13%;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+}
+.zhasu4{
+  margin-left: 13%;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+}
 @media screen and (max-width: 430px) {
   body {
     font: none;
@@ -384,32 +431,44 @@ a {
     font-size: 10%;
     padding: 0 10px;
   }
-  .jordan_bala{
+  .jordan_bala {
     display: block;
   }
-.jordan_bala1 img{
-  margin-left: 7px;
-  width: 95%;
-  height: 70%;
-}
-.jordan_bala2 img{
-  margin-top: 10%;
-  margin-left: 7px;
-  width: 95%;
-  height: 70%;
-}
-.jordan_bala3 img{
-  margin-top: 10%;
-  margin-left: 7px;
-  width: 95%;
-  height: 70%;
-}
-.section3{
-  text-align: center;
-  margin-right: 30px;
-}
-.crostar > div > img {
-  width: 60%;
-  height: 60%;
-}
+  .jordan_bala1 img {
+    margin-left: 7px;
+    width: 95%;
+    height: 70%;
+  }
+  .jordan_bala2 img {
+    margin-top: 10%;
+    margin-left: 7px;
+    width: 95%;
+    height: 70%;
+  }
+  .jordan_bala3 img {
+    margin-top: 10%;
+    margin-left: 7px;
+    width: 95%;
+    height: 70%;
+  }
+  .section3 {
+    text-align: center;
+    margin-right: 30px;
+  }
+  .crostar > div > .qazaq > img {
+    width: 200px;
+    height: 200px;
+  }
+  .section4{
+    display: none;
+  }
+  .jordanqaz{
+    display: none;
+  }
+
+  .zhasu{
+    margin-right: 15px;
+    margin-top: 50px;
+    font-size: 10px;
+  }
 }
