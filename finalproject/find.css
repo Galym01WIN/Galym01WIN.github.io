@@ -201,6 +201,12 @@ a {
   .zhasu4{
     display: none;
   }
+  .address4{
+    margin: 0 0;
+  }
+  .address6{
+    margin: 0 0;
+  }
 }
 
 @media screen  and (max-width: 880px){
