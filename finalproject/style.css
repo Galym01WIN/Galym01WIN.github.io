@@ -301,9 +301,9 @@ a {
   overflow-x: auto;
   margin: 0 4%;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar { 
    display: none;
-}
+ */
 .crostar > div > .qazaq > img {
   margin-right: 10%;
   border-radius: 15px;
@@ -472,4 +472,27 @@ a {
   .zhasu4{
     display:none;
   }
+}
+@media screen  and (max-width: 880px){
+@media screen and (min-width: 630px) {
+  .header{
+    width: 90%;
+  }
+  .header2{
+    display:none;
+  }
+  .jordan_bala img{
+    width: 95%;
+    height: 70%;
+  }
+  .jordanqaz{
+    display: none;
+  }
+  .family_photo img{
+   width: 90%;
+  }
+  .jordan_kyz{
+    margin-right: 30px;
+  }
+}
 }
