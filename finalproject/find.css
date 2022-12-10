@@ -1,6 +1,7 @@
 body{
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
+  background-color: rgba(224, 221, 221, 0.608);
 }
 a {
   color: #000000;
@@ -90,30 +91,74 @@ a {
   font-weight: 500;
   margin: 0 10%;
 }
-
-hr{
-  margin: 0 10%;
+.westwood{
+  margin-top: 5%;
 }
-.iphone{
+.address1{
   display: flex;
+  margin-left: 5%;
 }
-.iphone1{
-  margin: 5% 9%;
+
+.address1 img{
+  border-radius: 10px;
 }
-.iphone2{
-  margin: 5% 5%;
+.wesr{
+  margin-left: 30px;
 }
-.iphone3{
-  margin: 5% 5%;
+
+.yandex{
+  margin:5% 5%;
 }
-.chatandloc{
+
+.address2{
+  display: flex;
+  margin: 0% 5%;
+}
+
+.address2 img{
+  border-radius: 10px;
+}
+
+.address3{
   display: flex;
   margin: 0 5%;
 }
-
-.chat{
-  margin: 3%;
+.address3 img{
+  border-radius: 10px; 
 }
+
+.address123{
+  display: flex;
+}
+
+.address4{
+  display: flex;
+  margin: 0 5%;
+}
+.address4 img{
+  border-radius: 10px; 
+}
+
+.address5{
+  display: flex;
+  margin: 0 -1%;
+}
+.address5 img{
+  border-radius: 10px; 
+}
+
+.address6{
+  display: flex;
+  margin: 0 6.3%;
+}
+.address6 img{
+  border-radius: 10px; 
+}
+.address456{
+  margin: 5%;
+  display: flex;
+}
+
 .sabina{
   background-color: #000000;
 }
@@ -143,49 +188,43 @@ hr{
   line-height: 2;
   color: rgb(255, 255, 255);
 }
-
 @media screen and (max-width: 430px) {
-  .header{
-    width: 95%;
-    padding: 0 2% 0 2%;
+  .header2{
+    display:none;
   }
-.header2{
-  display: none;
-}
-
-.iphone{
-  font-size: 10px;
-}
-.chatandloc{
-  font-size: 10px;
-}
-.zhasu4{
-  display: none;
-}
-.locator img{
- width: 60px;
-}
-.chat{
-  width: 140px;
-}
-.zhasu{
-  font-size: 10px;
-}
+  .address123{
+    display: block;
+  }
+  .address456{
+    display: block;
+  }
+  .zhasu4{
+    display: none;
+  }
 }
 
 @media screen  and (max-width: 880px){
-  @media screen and (min-width: 540px){
- .header2{
-  display:none;
+  @media screen and (min-width: 550px){
+ .address123{
+  display: block;
  }
- .locator img{
-  width: 100px;
+ .address456{
+  display: block;
+  margin-top: 0;
  }
- .chat{
-   width: 250px;
+
+ .address4{
+  margin: 0 0;
+ }
+
+ .address6{
+  margin: 0 0; 
+ }
+ .address123456{
+  display: flex;
  }
  .zhasu{
-  font-size: 13px;;
+  font-size: 14px;
  }
-}
+  }
 }
