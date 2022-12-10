@@ -168,6 +168,9 @@ hr{
 .chat{
   width: 140px;
 }
+.zhasu{
+  font-size: 10px;
+}
 }
 
 @media screen  and (max-width: 880px){
@@ -180,6 +183,9 @@ hr{
  }
  .chat{
    width: 250px;
+ }
+ .zhasu{
+  font-size: 13px;;
  }
 
  
