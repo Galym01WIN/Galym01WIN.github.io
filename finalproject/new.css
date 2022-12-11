@@ -1,0 +1,179 @@
+body{
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.header {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(247, 244, 244);
+  padding: 0 5% 0 5%;
+}
+
+.header_section {
+  display: flex;
+}
+
+.header_logo {
+  margin: 20%;
+}
+
+.header_item {
+  font-size: 100%;
+  margin-left: 7px;
+}
+
+.header_item:hover {
+  background-color: rgb(61, 136, 136);
+  border-radius: 5px;
+}
+
+.header2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.header_section2 {
+  display: flex;
+}
+
+.header_asus:hover {
+  background-color: rgb(61, 136, 136);
+  border-radius: 5px;
+}
+
+.box {
+  margin-top: 15px;
+  margin-right: 150px;
+  height: 20px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 15px;
+  background: rgb(212, 212, 212);
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 15px 15px 25px rgb(0, 0, 0, 0.3);
+}
+
+.box:hover input {
+  width: 400px;
+}
+.box input {
+  width: 60px;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.8s;
+  background: transparent;
+}
+
+.header_asus {
+  font-size: 120%;
+  margin-right: 40px;
+}
+
+.header_logo2 {
+  margin-left: 90px;
+}
+.header23 {
+  text-align: center;
+  color: rgb(46, 45, 45);
+  background-color: rgb(247, 244, 244);
+  font-size: 90%;
+  width: 100%;
+}
+
+.forum{
+  margin: 0 40px;
+  background-color: #000000;
+  color: aliceblue;
+  padding: 0 25px 0 25px;
+  border-radius: 10px;
+}
+
+.forpho{
+  display: flex;
+}
+.photo{
+  display: block;
+}
+.photo img{
+  border-radius: 10px;
+}
+.photo1{
+  display: flex;
+}
+.shirt1{
+  line-height: 1.5;
+  margin-left: 10%;
+}
+.photo2{
+  display: flex;
+}
+.kids1{
+  line-height: 1.5;
+  margin-left: 10%;
+}
+.photo3{
+  display: flex;
+}
+.photo4 {
+  display: flex;
+}
+.photo5{
+ display: flex;
+}
+.photo6{
+  display: flex;
+}
+.qazaq{
+  display: block;
+}
+@media screen and (max-width: 430px) {
+.header2{
+  display: none;
+}
+.forum{
+  display: none;
+  }
+  .shirt1{
+    display: none;
+  }
+.kids1 img{
+  width: 100px;
+  height: 100px;
+}
+.kids1{
+  margin-left: 0;
+}
+.kalpak{
+  margin-left: 40px;
+}
+}
+
+@media screen  and (max-width: 880px){
+  @media screen and (min-width: 630px) {
+    .header2{
+      display: none;
+    }
+    .forum{
+      display: none;
+    }
+    .kids1 img{
+      width: 200px;
+      height: 200px;
+    }
+    .shirt1{
+      display: none;
+    }
+  }
+  }
