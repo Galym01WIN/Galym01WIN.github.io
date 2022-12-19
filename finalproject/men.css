@@ -1,6 +1,7 @@
 body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif; 
+  background: rgb(63, 63, 64);
 }
 a {
   color: #000000;
@@ -12,7 +13,7 @@ a {
   height: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(247, 244, 244);
+  background: rgb(96, 95, 103);
   padding: 0 5% 0 5%;
 }
 
@@ -41,6 +42,8 @@ a {
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
 }
+
+
 
 .header_section2 {
   display: flex;
