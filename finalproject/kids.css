@@ -1,0 +1,490 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(104, 188, 219);
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.header {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(247, 244, 244);
+  padding: 0 5% 0 5%;
+}
+
+.header_section {
+  display: flex;
+}
+
+.header_logo {
+  margin: 20%;
+}
+
+.header_item {
+  font-size: 100%;
+  margin-left: 7px;
+}
+
+.header_item:hover {
+  background-color: rgb(61, 136, 136);
+  border-radius: 5px;
+}
+
+.header2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.header_section2 {
+  display: flex;
+}
+
+.header_asus:hover {
+  background-color: rgb(61, 136, 136);
+  border-radius: 5px;
+}
+
+.box {
+  margin-top: 15px;
+  margin-right: 150px;
+  height: 20px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 15px;
+  background: rgb(212, 212, 212);
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 15px 15px 25px rgb(0, 0, 0, 0.3);
+}
+
+.box:hover input {
+  width: 400px;
+}
+.box input {
+  width: 60px;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.8s;
+  background: transparent;
+}
+
+.header_asus {
+  font-size: 120%;
+  margin-right: 40px;
+}
+
+.header_logo2 {
+  margin-left: 90px;
+}
+
+.header23 {
+  text-align: center;
+  color: rgb(46, 45, 45);
+  background-color: rgb(247, 244, 244);
+  font-size: 90%;
+  width: 100%;
+}
+
+.header3 {
+  margin: 5% 45%;
+}
+
+.header4 {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.header4_item {
+  margin: 0 12px;
+}
+
+.family_photo img {
+  margin: 2%;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.westwood {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+.west {
+  text-align: center;
+  font-size: 17px;
+}
+.button {
+  display: flex;
+  margin: 3% 45%;
+}
+
+.button1 {
+  background-color: #000000;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 0 20%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 95%;
+  font-weight: 800;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: rgb(11, 139, 198) 4px 4px;
+  margin-left: 25%
+}
+
+
+.section2 {
+  margin-top: 5%;
+  margin-left: 4%;
+  font-size: 180%;
+  font-weight: 900;
+}
+.jordandar {
+  display: flex;
+}
+.jordan_kyz img {
+  margin-left: 55px;
+  border-radius: 15px;
+}
+.jordan_cros img {
+  border-radius: 15px;
+}
+.jordan_sum img {
+  margin-top: 7%;
+  border-radius: 15px;
+}
+.jordans {
+  margin-left: 7%;
+}
+.page2 {
+  position: relative;
+}
+
+.shop {
+  position: absolute;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 95%;
+  font-weight: 800;
+  border-radius: 25px;
+  margin-left: 7px;
+  cursor: pointer;
+  box-shadow: rgb(11, 139, 198) 4px 4px;
+  margin-left: 55%;
+  top: 40%;
+}
+.shop1 {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 95%;
+  font-weight: 800;
+  border-radius: 25px;
+  margin-left: 7px;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 5%;
+  top: 87%;
+  box-shadow: rgb(11, 139, 198) 4px 4px;
+}
+.shop2 {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 95%;
+  font-weight: 800;
+  border-radius: 25px;
+  margin-left: 7px;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 55%;
+  top: 87%;
+  box-shadow: rgb(11, 139, 198) 4px 4px;
+}
+.shop11{
+ margin-top: 10px;
+  
+}
+.section3 {
+  margin-top: 5%;
+  margin-left: 4%;
+  font-size: 180%;
+  font-weight: 900;
+}
+.jordan_bala {
+  display: flex;
+  margin: 0 2%;
+}
+.jordan_bala img {
+  border-radius: 15px;
+  margin-left: 18px;
+}
+
+.jordan_bala1 {
+  font-size: 25px;
+  font-weight: 900;
+}
+.jordan_bala12 {
+  margin: 4%;
+}
+.shop3 {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 0 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 70%;
+  font-weight: 800;
+  border-radius: 55px;
+  margin-left: 7px;
+  cursor: pointer;
+  margin-left: 5%;
+  box-shadow: rgb(11, 139, 198) 4px 4px;
+}
+
+.jordan_bala2 {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.jordan_bala3 {
+  font-size: 25px;
+  font-weight: 900;
+}
+.popular {
+  margin-top: 5%;
+  margin-left: 4%;
+  font-size: 180%;
+  font-weight: 900;
+}
+.crostar {
+  display: flex;
+  overflow: hidden;
+}
+.crostar > div {
+  display: flex;
+  width: 280%;
+  overflow-x: auto;
+  margin: 0 4%;
+}
+/* ::-webkit-scrollbar { 
+   display: none;
+ */
+.crostar > div > .qazaq > img {
+  margin-right: 10%;
+  border-radius: 15px;
+}
+.crostar > div > .qazaq {
+  margin-right: 15px;
+}
+.router {
+  margin-left: 5%;
+}
+.section4 {
+  margin-top: 5%;
+  margin-left: 4%;
+  font-size: 180%;
+  font-weight: 900;
+}
+.jordanqaz {
+  margin: 0 4%;
+  display: flex;
+}
+.jor1 img {
+  border-radius: 15px;
+}
+.jor2 img {
+  margin: 0 15px;
+  border-radius: 15px;
+}
+.jor3 img {
+  border-radius: 15px;
+}
+.sabina{
+  background-color: #000000;
+}
+.zhasu{
+  font-family: none;
+  font-size: 18px;
+  display: flex;
+  margin: 0 15%;
+  margin-top: 100px;
+}
+.zhasu1{
+  line-height: 2;
+  color: rgb(255, 255, 255);
+}
+.zhasu2{
+  margin-left: 13%;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+}
+.zhasu3{
+  margin-left: 13%;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+}
+.zhasu4{
+  margin-left: 13%;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 430px) {
+  body {
+    font: none;
+  }
+  .header {
+    width: 95%;
+    height: 100%;
+    padding: 0 2% 0 2%;
+  }
+  .header_section {
+    margin-right: 20px;
+  }
+  .header_item {
+    margin-top: 17px;
+    font-size: 13px;
+  }
+  .header2 {
+    display: none;
+  }
+  .header3 {
+    width: 25%;
+    height: 25%;
+  }
+  .header4 {
+    font-size: 12px;
+  }
+  .family_photo img {
+    margin: 15px 10px;
+  }
+  .westwood {
+    font-size: 20px;
+    text-align: center;
+  }
+  .button {
+    margin: 3% 19%;
+  }
+  .button1 {
+    font-size: 80%;
+    padding: 0 15px;
+  }
+  .button2 {
+    font-size: 80%;
+    padding: 0 15px;
+  }
+  .jordan_kyz img {
+    margin-left: 15px;
+  }
+  .jordan_cros {
+    margin-top: 1px;
+    width: 95%;
+  }
+  .jordan_sum {
+    width: 95%;
+  }
+  .shop {
+    font-size: 10%;
+    padding: 0 10px;
+    top: 46%;
+  }
+  .shop1 {
+    font-size: 10%;
+    padding: 0 10px;
+    margin-left: 25px;
+  }
+  .shop2 {
+    font-size: 10%;
+    padding: 0 10px;
+  }
+  .jordan_bala {
+    display: block;
+  }
+  .jordan_bala1 img {
+    margin-left: 7px;
+    width: 95%;
+    height: 70%;
+  }
+  .jordan_bala2 img {
+    margin-top: 10%;
+    margin-left: 7px;
+    width: 95%;
+    height: 70%;
+  }
+  .jordan_bala3 img {
+    margin-top: 10%;
+    margin-left: 7px;
+    width: 95%;
+    height: 70%;
+  }
+  .section3 {
+    text-align: center;
+    margin-right: 30px;
+  }
+  .crostar > div > .qazaq > img {
+    width: 200px;
+    height: 200px;
+  }
+  .section4{
+    display: none;
+  }
+  .jordanqaz{
+    display: none;
+  }
+  .zhasu{
+    margin-top: 50px;
+    font-size: 10px;
+  }
+  .zhasu4{
+    display:none;
+  }
+}
+@media screen  and (max-width: 880px){
+@media screen and (min-width: 630px) {
+  .header{
+    width: 90%;
+  }
+  .header2{
+    display:none;
+  }
+  .jordan_bala img{
+    width: 95%;
+    height: 70%;
+  }
+  .jordanqaz{
+    display: none;
+  }
+  .family_photo img{
+   width: 90%;
+  }
+  .jordan_kyz{
+    margin-right: 30px;
+  }
+}
+}
