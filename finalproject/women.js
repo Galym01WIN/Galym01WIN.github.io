@@ -31,9 +31,7 @@ for(var i = 0 ; i < link.length; i++){
 ///fghgfhgfhgfhgfhfgh
 ///f/ghfghgf/h+gfh/+gh/gfh/gf/h/h/gf/hf 
 
-const link = document.querySelectorAll('.link')
-const hoverReveal = document.querySelectorAll('.hover-reveal')
-const linkImages = document.querySelectorAll('.hidden-img')
+
 
 for(var i = 0 ; i < link.length; i++){
   link[i].addEventListener('.mousemove',(e)=> {
@@ -56,9 +54,7 @@ for(var i = 0 ; i < link.length; i++){
 
 
 
-const link = document.querySelectorAll('.link')
-const hoverReveal = document.querySelectorAll('.hover-reveal')
-const linkImages = document.querySelectorAll('.hidden-img')
+
 
 for(var i = 0 ; i < link.length; i++){
   link[i].addEventListener('.mousemove',(e)=> {
