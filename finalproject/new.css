@@ -12,7 +12,7 @@ a {
   height: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(247, 244, 244);
+  background-color: rgb(255, 143, 7);
   padding: 0 5% 0 5%;
 }
 
@@ -20,6 +20,22 @@ a {
   display: flex;
 }
 
+.shirt1{
+  transition: 1s;
+}
+.shirt1:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.kids1{
+  transition: 1s;
+}
+
+.kids1:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
 .header_logo {
   margin: 20%;
 }

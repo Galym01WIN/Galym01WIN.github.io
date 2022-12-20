@@ -102,6 +102,13 @@ a {
 .address1 img{
   border-radius: 10px;
 }
+.address1{
+  transition: 1s; 
+}
+.address1:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
 .wesr{
   margin-left: 30px;
 }
@@ -113,8 +120,12 @@ a {
 .address2{
   display: flex;
   margin: 0% 5%;
+  transition: 1s; 
 }
-
+.address2:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
 .address2 img{
   border-radius: 10px;
 }
@@ -122,6 +133,11 @@ a {
 .address3{
   display: flex;
   margin: 0 5%;
+  transition: 1s;
+}
+.address3:hover{
+  transform: scale(1.1);
+  z-index: 2;
 }
 .address3 img{
   border-radius: 10px; 
@@ -134,7 +150,13 @@ a {
 .address4{
   display: flex;
   margin: 0 5%;
+  transition: 1s;
 }
+.address4:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+
 .address4 img{
   border-radius: 10px; 
 }
@@ -142,6 +164,11 @@ a {
 .address5{
   display: flex;
   margin: 0 -1%;
+  transition: 1s;
+}
+.address5:hover{
+  transform: scale(1.1);
+  z-index: 2;
 }
 .address5 img{
   border-radius: 10px; 
@@ -150,7 +177,13 @@ a {
 .address6{
   display: flex;
   margin: 0 6.3%;
+  transition: 1s;
 }
+.address6:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+
 .address6 img{
   border-radius: 10px; 
 }

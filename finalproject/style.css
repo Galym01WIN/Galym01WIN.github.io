@@ -259,6 +259,12 @@ a {
 .jordan_bala1 {
   font-size: 25px;
   font-weight: 900;
+  transition: 1s;
+}
+
+.jordan_bala1:hover{
+  transform: scale(1.1);
+  z-index: 2;
 }
 .jordan_bala12 {
   margin: 4%;
@@ -283,17 +289,55 @@ a {
 .jordan_bala2 {
   font-size: 25px;
   font-weight: 900;
+  transition: 1s;
+}
+.jordan_bala2:hover{
+  transform: scale(1.1);
+  z-index: 2;
 }
 
 .jordan_bala3 {
   font-size: 25px;
   font-weight: 900;
+  transition: 1s;
+}
+
+.jordan_bala3:hover{
+  transform: scale(1.1);
+  z-index: 2;
 }
 .popular {
   margin-top: 5%;
   margin-left: 4%;
   font-size: 180%;
   font-weight: 900;
+}
+
+.jor1{
+  transition: 1s;
+}
+
+.jor1:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.jor2{
+  transition: 1s;
+}
+
+.jor2:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.jor3{
+  transition: 1s;
+}
+
+.jor3:hover{
+  transform: scale(1.1);
+  z-index: 2;
 }
 .crostar {
   display: flex;
